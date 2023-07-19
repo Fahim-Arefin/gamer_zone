@@ -314,6 +314,7 @@ header .link .follow-us {
   opacity: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   border-radius: 20px;
+  border: 2px solid #ff42a5;
   transition: all 0.3s ease-out;
 }
 
@@ -441,6 +442,8 @@ header .link .follow-us {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* footer */
 .footer {
   height: 636px;
   background-color: #0b0223;
@@ -537,8 +540,28 @@ header .link .follow-us {
   }
 
   .banner .info .info-details {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
   }
+  .banner .info .info-details h2 {
+    font-size: 38px;
+  }
+  .banner .info .info-details h1 {
+    font-size: 70px;
+  }
+  .banner .info .info-details p {
+    /* background-color: yellow; */
+    font-size: 14px;
+  }
+  .info-details button {
+    color: #fff;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 14px 30px;
+    font-size: 14px;
+    border-radius: 48px;
+  }
+
   .gamer {
     flex-direction: column;
     height: auto;
@@ -704,6 +727,24 @@ header .link .follow-us {
     flex-direction: column;
     justify-content: center;
   }
+  .banner .info .info-details h2 {
+    font-size: 38px;
+  }
+  .banner .info .info-details h1 {
+    font-size: 70px;
+  }
+  .banner .info .info-details p {
+    font-size: 14px;
+  }
+  .info-details button {
+    color: #fff;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 14px 30px;
+    font-size: 14px;
+    border-radius: 48px;
+  }
+
   /* gamer */
   .gamer {
     flex-direction: column;
